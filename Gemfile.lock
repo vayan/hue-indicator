@@ -1,0 +1,44 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    atk (3.0.8)
+      glib2 (= 3.0.8)
+    cairo (1.15.2)
+      pkg-config (>= 1.1.5)
+    curb (0.9.3)
+    gdk_pixbuf2 (3.0.8)
+      glib2 (= 3.0.8)
+    glib2 (3.0.8)
+      pkg-config
+    gtk2 (3.0.8)
+      atk (= 3.0.8)
+      gdk_pixbuf2 (= 3.0.8)
+      pango (= 3.0.8)
+    hue (0.2.0)
+      curb
+      json
+      log_switch (= 0.4.0)
+      thor
+    json (2.0.2)
+    log_switch (0.4.0)
+    pango (3.0.8)
+      cairo (>= 1.14.0)
+      glib2 (= 3.0.8)
+    pkg-config (1.1.7)
+    ruby-libappindicator (0.1.5)
+      gtk2
+      pkg-config
+    thor (0.19.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hue
+  ruby-libappindicator
+
+RUBY VERSION
+   ruby 2.3.1p112
+
+BUNDLED WITH
+   1.12.5
